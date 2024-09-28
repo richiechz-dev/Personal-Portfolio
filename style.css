@@ -1,4 +1,56 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    background-color: EEEEEE;
     font-family: "Roboto", sans-serif;
+}
+
+/* Global Styles */
+
+body {
+    line-height: 1.6;
+    padding: 0 1.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2 ,h3 {
+    color: #222831;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+.profile-user {
+    display: flex;
+    align-items: center;
+    height: min-content;
+    gap: 2rem;
+}
+
+.profile-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover; /* es como background-size: cover */
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
