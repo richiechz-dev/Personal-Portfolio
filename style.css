@@ -28,6 +28,10 @@ h1, h2 ,h3 {
     margin-bottom: 2rem;
 }
 
+p{
+    color: #222831;
+}
+
 a {
     text-decoration: none;
 }
@@ -57,10 +61,10 @@ header {
 }
 
 .profile-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    font-style: italic;
     color: #EEEEEE;
+    transition: all 0.3s ease-in-out;
 }
 
 .profile-name:hover{
@@ -89,8 +93,31 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    outline: 1px solid #76ABAE;
-    border-radius: 5px;
     color: #76ABAE;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+/* banner */
+
+.banner {
+    padding: 60px;
+    
+}
+
+.title {
+    transition: all 0.3s ease-in-out;
+}
+
+.title:hover {
+    color: #76ABAE;
+    letter-spacing: 5px;
+    transform: scale(1.1);
+}
+
+.subtitle {
+    letter-spacing: 2px;
+}
