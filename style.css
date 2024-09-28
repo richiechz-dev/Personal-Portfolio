@@ -55,8 +55,8 @@ header {
 .profile-logo {
     width: 80px;
     height: 80px;
-    border-radius: 20%;
-    border: 2px solid #ccc;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
     object-fit: cover; /* es como background-size: cover */
 }
 
@@ -105,7 +105,7 @@ main {
 
 .banner {
     padding: 60px;
-    
+    margin: 60px 0;
 }
 
 .title {
@@ -121,3 +121,45 @@ main {
 .subtitle {
     letter-spacing: 2px;
 }
+
+/* projects - work experience- education */
+
+.flex-experience {
+    display: flex;
+    margin: 0 2rem;
+    gap: 2rem;
+}
+
+.box {
+    text-align: start;
+    padding: 30px;
+    height: 700px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+/* projects */
+.flex-experience .projects article ul li{
+    border-bottom: 2px solid #222831;
+
+}
+
+/* experience */
+
+.flex-experience .experience article {
+    border-bottom: 2px solid #222831;
+    margin-bottom: 70px;
+}
+.flex-experience .experience article a{
+    color: #76ABAE;
+}
+
+/* education */
+.flex-experience .education p{
+    padding-bottom: 20px;
+}
+.flex-experience .education ul li{
+    list-style: circle;
+}
+
