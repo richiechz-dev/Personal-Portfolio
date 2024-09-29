@@ -126,6 +126,7 @@ main {
 }
 
 .box {
+    font-size: 15px;
     text-align: start;
     padding: 30px;
     height: 700px;
