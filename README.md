@@ -23,8 +23,7 @@ For bonus points, you can:
 - Add support for dark mode using CSS variables.
 
 # Website Preview
-
-![[picture.png]]
+![Website](assets/picture.png)
 
 Visita el sitio:
 https://richiechz-dev.github.io/Personal-Portfolio/
